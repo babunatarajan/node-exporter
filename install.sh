@@ -7,7 +7,7 @@ export VER='1.3.1'
 useradd -M -r -s /bin/false node_exporter
 id node_exporter
 yum -y install wget
-wget https://github.com/prometheus/node_exporter/releases/download/v0.18.1/node_exporter-${VER}.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/v${VER}/node_exporter-${VER}.linux-amd64.tar.gz
 tar xzf node_exporter-${VER}.linux-amd64.tar.gz
 cp node_exporter-${VER}.linux-amd64/node_exporter /usr/local/bin/
 chown node_exporter:node_exporter /usr/local/bin/node_exporter

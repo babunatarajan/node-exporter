@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+echo "Installing Node Exporter on Linux/Ubuntu"
 echo "Make sure to get the latest version info from https://github.com/prometheus/node_exporter/releases"
 export VER='1.3.1'
 
